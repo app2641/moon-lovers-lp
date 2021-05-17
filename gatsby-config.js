@@ -1,28 +1,13 @@
+/**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.com/docs/gatsby-config/
+ */
+
 module.exports = {
+  /* Your site config here */
+  plugins: [],
   siteMetadata: {
-    title: "moon-lovers-lp",
-  },
-  plugins: [
-    "gatsby-plugin-image",
-    "gatsby-transformer-remark",
-    "gatsby-plugin-mdx",
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "images",
-        path: "./src/images/",
-      },
-      __key: "images",
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "pages",
-        path: "./src/pages/",
-      },
-      __key: "pages",
-    },
-  ],
-};
+    title: 'Moon Lovers - 月を生活のそばに'
+  }
+}
