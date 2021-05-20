@@ -8,6 +8,7 @@ module.exports = {
   /* Your site config here */
   plugins: [],
   siteMetadata: {
-    title: 'Moon Lovers - 月を生活のそばに'
+    title: 'Moon Lovers - 月を生活のそばに',
+    author: 'app2641'
   }
 }
