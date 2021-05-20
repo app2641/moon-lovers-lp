@@ -6,7 +6,7 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: ['gatsby-plugin-postcss'],
   siteMetadata: {
     title: 'Moon Lovers - 月を生活のそばに',
     author: 'app2641'
