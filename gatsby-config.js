@@ -6,9 +6,16 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: ['gatsby-plugin-postcss'],
+  plugins: [
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+  ],
   siteMetadata: {
     title: 'Moon Lovers - 月を生活のそばに',
-    author: 'app2641'
-  }
+    author: 'app2641',
+    category: ['Moon', '月齢', 'Android'],
+    user: { name: 'app2641', email: 'app2641@gmail.com' },
+  },
 }
