@@ -1,8 +1,9 @@
 import React from 'react';
+import * as style from './style/layout.module.css';
 
 export default ({ children}) => {
   return (
-    <div className="container mx-auto text-center">
+    <div className={style.background}>
       {children}
     </div>
   )
