@@ -6,11 +6,12 @@ export default function Hero() {
   return (
     <div>
       <StaticImage
-        src="../../static/images/logo.png"
+        src="../../static/images/logo.svg"
         alt="Moon Lovers logo"
         layout="constrained"
-        width={189}
-        height={163} />
+        width={94.5}
+        height={81.5}
+        className="object-contain" />
       <h1 className={style.title}>Moon Lovers</h1>
     </div>
   )

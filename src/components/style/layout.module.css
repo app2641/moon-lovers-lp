@@ -1,4 +1,6 @@
 .background {
   background-color: #616161;
-  @apply container mx-auto text-center;
-}
+  @apply container;
+  @apply mx-auto;
+  @apply text-center;
+};
