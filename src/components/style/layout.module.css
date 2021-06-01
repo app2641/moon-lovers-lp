@@ -3,4 +3,7 @@
   @apply container;
   @apply mx-auto;
   @apply text-center;
+  @apply text-white;
+  @apply max-w-full;
+  @apply max-h-screen;
 };
