@@ -13,6 +13,7 @@ export default function Hero() {
         height={81.5}
         className="object-contain" />
       <h1 className={style.title}>Moon Lovers</h1>
+      <h2 className={style.subtitle}>月を生活のそばに</h2>
     </div>
   )
 }

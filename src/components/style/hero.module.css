@@ -4,4 +4,10 @@
   font-family: 'Suranna', serif;
   @apply text-5xl;
   @apply antialiased;
+  @apply mt-5;
+}
+
+.subtitle {
+  @apply text-2xl;
+  @apply mt-2;
 }
