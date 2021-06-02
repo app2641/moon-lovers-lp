@@ -6,4 +6,5 @@
   @apply text-white;
   @apply max-w-full;
   @apply max-h-screen;
+  @apply pt-20;
 };

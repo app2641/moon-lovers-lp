@@ -1,0 +1,7 @@
+
+.footer {
+  background-color: #373737;
+  @apply max-w-full;
+  @apply pt-7;
+  @apply pb-7;
+}
