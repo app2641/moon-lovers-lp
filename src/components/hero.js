@@ -9,8 +9,7 @@ export default function Hero() {
         src="../../static/images/logo.svg"
         alt="Moon Lovers logo"
         layout="constrained"
-        width={94.5}
-        height={81.5}
+        width={150}
         className="object-contain" />
       <h1 className={style.title}>Moon Lovers</h1>
       <h2 className={style.subtitle}>月を生活のそばに</h2>
