@@ -1,0 +1,4 @@
+.description {
+  @apply text-lg;
+  @apply mt-10;
+}
