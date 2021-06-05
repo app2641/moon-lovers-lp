@@ -1,7 +1,7 @@
 import React from 'react';
 import * as style from './style/layout.module.css';
 
-export default ({ children}) => {
+export default function Layout({ children}) {
   return (
     <div className={style.background}>
       {children}
