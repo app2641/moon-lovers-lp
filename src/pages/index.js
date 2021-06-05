@@ -4,6 +4,7 @@ import Hero from '../components/hero';
 import Body from '../components/body';
 import GooglePlayBadge from '../components/google_play_badge';
 import Description from '../components/description';
+import Device from '../components/device';
 import Footer from '../components/footer';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Body>
         <GooglePlayBadge />
         <Description />
+        <Device />
       </Body>
       <Footer />
     </Layout>
