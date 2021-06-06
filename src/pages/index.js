@@ -5,6 +5,7 @@ import Body from '../components/body';
 import GooglePlayBadge from '../components/google_play_badge';
 import Description from '../components/description';
 import Device from '../components/device';
+import AppText from '../components/app_text';
 import Footer from '../components/footer';
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <GooglePlayBadge />
         <Description />
         <Device />
+        <AppText />
       </Body>
       <Footer />
     </Layout>
