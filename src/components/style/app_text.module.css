@@ -5,3 +5,7 @@
 .app_text p {
   @apply mb-5;
 }
+
+.catchcopy {
+  @apply mt-10;
+}
