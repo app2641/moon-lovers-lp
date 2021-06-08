@@ -1,3 +1,7 @@
 .app_text {
   @apply m-10;
 }
+
+.app_text p {
+  @apply mb-5;
+}
