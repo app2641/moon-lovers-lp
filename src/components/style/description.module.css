@@ -1,4 +1,8 @@
 .description {
-  @apply text-lg;
+  @apply text-2xl;
   @apply mt-10;
+}
+
+.description p {
+  @apply mt-3;
 }
