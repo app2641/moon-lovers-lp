@@ -2,12 +2,12 @@
 
 .title {
   font-family: 'Suranna', serif;
-  @apply text-7xl;
+  @apply text-6xl;
   @apply antialiased;
   @apply mt-5;
 }
 
 .subtitle {
-  @apply text-4xl;
+  @apply text-3xl;
   @apply mt-3;
 }
