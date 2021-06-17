@@ -1,5 +1,6 @@
-import React from "react"
-import Layout from '../components/layout'
+import React from "react";
+import Layout from '../components/layout';
+import Metadata from '../components/metadata';
 import Hero from '../components/hero';
 import Body from '../components/body';
 import GooglePlayBadge from '../components/google_play_badge';
@@ -11,6 +12,7 @@ import Footer from '../components/footer';
 export default function Home() {
   return (
     <Layout>
+      <Metadata />
       <Hero />
       <Body>
         <GooglePlayBadge />
