@@ -1,5 +1,5 @@
 import React from 'react';
-import * as style from './style/app_text.module.css';
+import * as style from '../style/app_text.module.css';
 
 export default function AppText() {
   return (

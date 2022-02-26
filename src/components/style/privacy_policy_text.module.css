@@ -1,0 +1,25 @@
+.privacy_policy_text {
+  @apply text-left;
+  @apply m-10;
+  @apply mb-20;
+}
+
+.privacy_policy p {
+  @apply mb-5;
+}
+
+.privacy_policy_text h2 {
+  @apply text-xl;
+  @apply mt-8;
+  @apply mb-2;
+}
+
+.privacy_policy_text ul {
+  @apply list-disc;
+  @apply m-5;
+  @apply ml-10;
+}
+
+.privacy_policy_text li {
+  @apply m-1;
+}

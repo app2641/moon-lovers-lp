@@ -1,7 +1,7 @@
 import React from 'react';
-import { Helmet} from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
-export default function Metada() {
+export default function Metadata() {
   return (
     <Helmet>
       <title>Moon Lovers - 今夜の月齢</title>

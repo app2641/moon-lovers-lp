@@ -1,6 +1,6 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import * as style from './style/device.module.css';
+import * as style from '../style/device.module.css';
 
 export default function Device() {
   return (
