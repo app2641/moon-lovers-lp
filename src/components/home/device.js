@@ -6,7 +6,7 @@ export default function Device() {
   return (
     <div className={style.device}>
       <StaticImage
-        src="../../static/images/device.png"
+        src="../../../static/images/device.png"
         alt="MoonLoversのスクリーン画像"
         width={320}
       />

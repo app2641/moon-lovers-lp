@@ -9,7 +9,7 @@ export default function GooglePlayBadge() {
       rel="noreferrer"
     >
       <StaticImage
-        src="../../static/images/google-play-badge.png"
+        src="../../../static/images/google-play-badge.png"
         alt="google play badge"
         layout="constrained"
         width={230}
