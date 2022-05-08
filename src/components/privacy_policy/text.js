@@ -6,7 +6,7 @@ export default function Text() {
     <div className={style.privacy_policy_text}>
       <h2>プライバシーポリシー</h2>
       <p>
-        Moon Lovers は無料アプリとして <a href="https://twitter.com/app2641" target="_blank">app2641</a> が作成しました。本アプリは app2641 によって無料で提供するものであり、そのまま使用することを目的としています。
+        Moon Lovers は無料アプリとして <a href="https://twitter.com/app2641" target="_blank" rel="noreferrer noopener">app2641</a> が作成しました。本アプリは app2641 によって無料で提供するものであり、そのまま使用することを目的としています。
         <br />
         本ページは、本アプリをご利用いただくにあたり、個人情報の収集、利用、開示に関する方針をお知らせするためのものです。
         <br />
@@ -28,7 +28,7 @@ export default function Text() {
         <a
           href="https://www.google.com/policies/privacy/"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer noopener"
         >
           Google Play Services
         </a>
@@ -82,7 +82,7 @@ export default function Text() {
       <p>
         本アプリのプライバシーポリシーについてご質問やご提案がありましたら DM でご連絡ください。
         <br />
-        本プライバシーポリシーは <a href="https://privacypolicytemplate.net" target="_blank">privacypolicytemplate.net</a> で作成され、 <a href="https://app-privacy-policy-generator.nisrulz.com/" target="_blank">App Privacy Policy Generator</a> で修正・加筆されたものです。
+        本プライバシーポリシーは <a href="https://privacypolicytemplate.net" target="_blank" rel="noreferrer noopener">privacypolicytemplate.net</a> で作成され、 <a href="https://app-privacy-policy-generator.nisrulz.com/" target="_blank" rel="noreferrer noopener">App Privacy Policy Generator</a> で修正・加筆されたものです。
       </p>
     </div>
   )
